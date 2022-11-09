@@ -11,7 +11,7 @@ Briefing
 
     • Parcerias: Madeira Madeira, Casas Bahia, Condor, Carrefour, Marisa, Richuelo, Magazine Luiza.
 
-    • Total de páginas: 10 páginas (Home, Login, Cupons, Domésticos, Eletrônicos, Alimentos, Vestiário, Beleza e Bem-Estar, Pets, Sobre.
+    • Total de páginas: 10 páginas (Home, Login, Cupons, Domésticos, Eletrônicos, Alimentos, Vestiário, Beleza e Bem-Estar, Pets, Sobre e ajuda.
 
     • Linguagens: html, framework, css, php, banco de dados.
 
@@ -19,4 +19,8 @@ Briefing
 
     • Cores iniciais: 3591CC (AZUL), FFFFFF(BRANCO), 000000(PRETO).
 
-    • Changelog: 
+    • Changelog: cupons, domesticos e eletronicos (Gabs),
+    Home, alimentos, e vestiário (Duda),
+    login, beleza, pets (Davi).
+    sobre e ajuda (todos).
+

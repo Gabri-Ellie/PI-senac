@@ -7,3 +7,10 @@ footer{
     text-align: left;
     float: left;
 }
+header{
+    width: fit-content;
+    background-color: #3591CC;
+}
+#logo{
+    padding: 50%;
+}
