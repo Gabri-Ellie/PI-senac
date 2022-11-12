@@ -3,14 +3,13 @@ footer{
     text-align: end;
     padding: 2%;
 }
-#redesfooter{
-    text-align: left;
-    float: left;
-}
+
 header{
     width: fit-content;
     background-color: #3591CC;
 }
-#logo{
-    padding: 50%;
+section{
+    background-color: #3591CC;
+    padding: 3%;
+    float: left;
 }
