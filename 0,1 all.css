@@ -20,3 +20,29 @@ section{
 main{
     float:right;
 }
+ 
+body{
+    background-color: #f9f9f9;
+}
+.pesquisa{
+    width: 4px;
+    height: 40px;
+    
+}
+#texto{
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-family: 'Arial';
+    font-size: 20px;
+} 
+.btn{
+    width: 30px;
+    height: 30px;
+    background-color:#3591CC;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#texto:focus{
+    border: solid 2px #3591CC;
+}
