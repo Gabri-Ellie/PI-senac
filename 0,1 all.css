@@ -3,9 +3,13 @@ footer{
     text-align: end;
     padding: 2%;
 }
+.logo{
+    background-color: #3591CC;
+    width: 80px;
+}
 
 header{
-    width: fit-content;
+    width: 100%;
     background-color: #3591CC;
 }
 section{
