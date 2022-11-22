@@ -27,7 +27,7 @@ body{
 .pesquisa{
     width: 4px;
     height: 40px;
-    
+    text-align: center;
 }
 #texto{
     width: 350px;

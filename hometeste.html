@@ -5,67 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="1 Home.html">
     <style>
         *{
             margin: 0;
             padding: 0;
-        } 
-        body{
-            background-color: #f9f9f9;
         }
-        .pesquisa{
-            width: 400px;
-            height: 40px;
-            margin: 200px auto;
+        .container.active{
+            background: rgb(0, 0, 0);
         }
-        #texto{
-            width: 350px;
-            height: 40px;
-            float: left;
-            font-family: 'Arial';
-            font-size: 20px;
-        } 
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background: #3591CC;
+            transition: background .5s;
+        }
         .btn{
-            width: 30px;
-            height: 30px;
-            background-color:#3591CC;
-            padding: 5px 10px;
+            width: 200px;
+            height: 90px;
+            border: 5px solid #fff;
+            position: relative;
             cursor: pointer;
         }
-        #texto:focus{
-            border: solid 2px #3591CC;
+        .btn:before{
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            transition:  left .5s;
         }
-    
-
+        .btn.active:before{
+            left: 115px;
+        }
     </style>
-    <script>
-
-    </script>
 </head>
 <body>
-    
-<form class="pesquisa">
-<input type="search" id="texto" list="historico" placeholder="Pesquisar">   
-<img src="lupa.png" class="btn">
-<datalist id="historico">
-    <option value="mesa"></option>
-    <option value="cadeira"></option>
-    <option value="sofa"></option>
-    <option value="celular"></option>
-    <option value="ração"></option>
-    <option value="camisa"></option>
-    <option value="video game"></option>
-    <option value="fogão"></option>
-    <option value="cama"></option>
-    <option value="geladeira"></option>
-    <option value="computador"></option>
-    <option value="coleira"></option>
-    <option value="comida"></option>
-    <option value="penteadeira"></option>
-    <option value="espelho"></option>
-    <option value="mouse"></option>
-</datalist>
-</form> 
+    <div class="container"> 
+         <div class="btn">
+            
+         </div>
 
+    </div>
 </body>
+
+<script>
+    const btn = document.querySelector('.btn');
+    const container = document.querySelector('.container');
+    btn.onclick = function(){
+        this.classList.toggle('active')
+        container.classList.toggle('active')
+    }
+</script>
 </html>
