@@ -86,9 +86,9 @@ body{
     display: inline;
     width: fit-content;
 }
-td{
-    padding: 100px;
-  margin: 0;
-  /*border: 1px solid #ccc;*/
-  text-align: center;
+.tabela{
+  margin: auto;
+}
+h1{
+    text-align: center;
 }
