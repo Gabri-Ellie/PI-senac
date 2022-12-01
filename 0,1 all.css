@@ -28,15 +28,19 @@ body{
     width: 4px;
     height: 40px;
     text-align: center;
+
+
 }
 #texto{
     width: 350px;
     height: 40px;
-    float: left;
+    float: center;
     font-family: 'Arial';
     font-size: 20px;
+    border-radius: 100px;
+    border: 0;
 } 
-.btn{
+.btnn{
     width: 30px;
     height: 30px;
     background-color:#3591CC;
@@ -45,4 +49,40 @@ body{
 }
 #texto:focus{
     border: solid 2px #3591CC;
+}
+.flex-container {
+
+    display: flex;
+ 
+    align-items:baseline;
+ 
+    flex-wrap: nowrap;
+ 
+    justify-content:  flex-start;
+ 
+    flex-direction: row;
+ 
+    width: 100%;
+ 
+  }
+#lupi{
+    width: 20px;
+
+}
+#div1c{
+    display: inline;
+    width: fit-content;
+}
+#div3c {
+
+    justify-content:flex-end;
+ 
+    display: flex;
+ 
+    padding-left: 10%;
+ 
+  }
+#div3c{
+    display: inline;
+    width: fit-content;
 }
