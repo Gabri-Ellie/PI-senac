@@ -7,10 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="1 Home.html">
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
+
         .container.active{
             background: rgb(0, 0, 0);
         }
@@ -29,6 +26,7 @@
             border: 5px solid #fff;
             position: relative;
             cursor: pointer;
+            border-radius: 20px;
         }
         .btn:before{
             content: '';
@@ -40,6 +38,7 @@
             left: 5px;
             transform: translateY(-50%);
             transition:  left .5s;
+            border-radius: 10px;
         }
         .btn.active:before{
             left: 115px;
