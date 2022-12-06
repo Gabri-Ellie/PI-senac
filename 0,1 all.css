@@ -39,6 +39,7 @@ body{
     font-size: 20px;
     border-radius: 100px;
     border: 0;
+    padding: 10px;
 } 
 .btnn{
     width: 30px;
@@ -96,5 +97,4 @@ body{
 }
     .cuponsusados{
         margin: auto;
-        padding: ;
     }
