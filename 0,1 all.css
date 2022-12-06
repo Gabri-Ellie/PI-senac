@@ -95,17 +95,16 @@ body{
         margin: auto;
     }
 .teacup{
-    padding: 10%;
+    padding: 1%; 
 }
 #cupg{
     text-align: center;
-    padding: 1%;
-    width: 100%;
     align-self: center;
 }
 .cuponsin{
-    gap: 10%;
-    width: 99%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 header{
     background-color: #3591CC;
