@@ -87,7 +87,7 @@ body{
   margin: auto;
   color: #c6e3f5;
 }
-#oferta, h1{
+#oferta{
     text-align: center;
     background-color: #c6e3f5;
 }
@@ -137,4 +137,10 @@ header{
 #loginho{
     padding-left: 30%;
     padding-top: 30px;
+}
+.aldiv{
+
+}
+.altab{
+
 }
