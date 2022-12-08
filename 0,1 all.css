@@ -3,6 +3,7 @@ footer{
     text-align: end;
     padding: 2%;
     width: 96%;
+    color: #ffffff;
 }
 .logo{
     background-color: #3591CC;
@@ -143,4 +144,7 @@ header{
 }
 .altab{
 
+}
+.insta , .face {
+    filter: brightness(100);
 }
