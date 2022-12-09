@@ -5,9 +5,10 @@ footer{
     width: 96%;
     color: #ffffff;
 }
+
 .logo{
     background-color: #3591CC;
-    width: 80px;
+    width:5%;
 }
 
 section{
@@ -15,29 +16,29 @@ section{
     padding: 3%;
     float: left;
 }
+
 main{
     float:right;
 }
  
 body{
-
     margin: 0%;
 }
+
 .pesquisa{
-    width: fit-content;
-    height: 40px;
-    padding: 5%;
-    
+    width:50%;
+    padding: 2%;
 }
+
 #texto{
-    width: 500px;
-    height: 40px;
+    width: 100%;
     font-family: 'Arial';
-    font-size: 20px;
-    border-radius: 100px;
+    font-size: 100%;
+    border-radius:100px;
     border: 0;
-    padding: 10px;
+    padding: 2.5%;
 } 
+
 .btnn{
     width: 30px;
     height: 30px;
@@ -45,56 +46,44 @@ body{
     padding: 5px 10px;
     cursor: pointer;
 }
-#texto:focus{
-    border: solid 2px #3591CC;
-}
+
 .flex-container {
-
     display: flex;
- 
     align-items:baseline;
- 
     flex-wrap: nowrap;
- 
     justify-content:  flex-start;
- 
     flex-direction: row;
- 
     width: 100%;
- 
   }
-#lupi{
-    width: 20px;
-
-}
 #div1c{
     display: inline;
     width: fit-content;
 }
 #div3c {
-
     justify-content:flex-end;
- 
     display: flex;
- 
     padding-left: 10%;
- 
-  }
+}
+
 #div3c{
     display: inline;
     width: fit-content;
 }
+
 .tabela{
   margin: auto;
   color: #c6e3f5;
 }
+
 #oferta{
     text-align: center;
     background-color: #c6e3f5;
 }
-    .cuponsusados{
-        margin: auto;
-    }
+
+.cuponsusados{
+    margin: auto;
+}
+
 .teacup{
     padding: 1%; 
 }
@@ -111,34 +100,63 @@ header{
     background-color: #3591CC;
     display: flex ;
     flex-direction:row;
-    padding: 1%;
+    padding: 2%;
     justify-content: space-between;
-    height: 155px;
+    height:fit-content;
+    max-height: 150px;
 }
 #uti{
-    width: 4%;
-    padding-left: 5%;
-    text-align: center;
+    width: min-content;
+    margin-top:2% ;
+    max-width: 130px;
+    min-width: 150px;
+    margin-right: 0%;
 }
 #nave{
     width: 100%;
-    height: 100px;
+    height: 1%;
     background-color: #207eb8;
     text-align: center;
-    padding-bottom: 2%;
 }
 #log{
     text-align: center;
-    margin-bottom: 0%;
-    padding-top: 40px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: min-content;
+    margin-right: 5%;
+    margin-top:2% ;
 }
 
 #loginho{
     padding-left: 30%;
-    padding-top: 30px;
+    padding-top: 1%;
 }
 .insta , .face {
     filter: brightness(100);
+}
+.tdal{
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+}
+.aldiv{
+    width:90%;
+    text-align: center;
+    margin-left:10%;
+    margin-right:10%;
+}
+.tral{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding:2% ;
+}
+#imglog{
+    width:100% ;
+}
+#loginho{
+    width: 50%;
 }
