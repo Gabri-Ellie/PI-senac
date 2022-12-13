@@ -70,20 +70,6 @@ body{
     width: fit-content;
 }
 
-.tabela{
-  margin: auto;
-  color: #c6e3f5;
-}
-
-#oferta{
-    text-align: center;
-    background-color: #c6e3f5;
-}
-
-.cuponsusados{
-    margin: auto;
-}
-
 .teacup{
     padding: 1%; 
 }
@@ -165,7 +151,4 @@ a{
     padding-top: 1%;
     padding-bottom: 1%;
     
-}
-.duda{
-    padding: 1%;
 }
