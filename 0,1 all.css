@@ -2,7 +2,7 @@ footer{
     background-color: #3591CC;
     text-align: end;
     padding: 2%;
-    width: 96%;
+    width: 100%;
     color: #ffffff;
 }
 
@@ -165,7 +165,4 @@ a{
     padding-top: 1%;
     padding-bottom: 1%;
     
-}
-.duda{
-    padding: 1%;
 }
