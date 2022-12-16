@@ -2,7 +2,7 @@ footer{
     background-color: #3591CC;
     text-align: end;
     padding: 2%;
-    width: 96%;
+    width: 100%;
     color: #ffffff;
 }
 
@@ -67,15 +67,6 @@ body{
   color: #c6e3f5;
 }
 
-#oferta{
-    text-align: center;
-    background-color: #c6e3f5;
-}
-
-.cuponsusados{
-    margin: auto;
-}
-
 .teacup{
     padding: 1%; 
 }
@@ -96,6 +87,7 @@ header{
     justify-content: space-between;
     height:fit-content;
     max-height: 150px;
+    width: 100%;
 }
 #uti{
     width: min-content;
@@ -105,7 +97,7 @@ header{
     margin-right: 0%;
 }
 #nave{
-    width: 100%;
+    width: 104%;
     height: 1%;
     background-color: #207eb8;
     text-align: center;
@@ -135,7 +127,7 @@ a{
     text-decoration: none;
 }
 .aldiv{
-    width:96%;
+    width:100%;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -172,7 +164,7 @@ a{
         background-color: rgb(255, 255, 255);
     }
     .proddesal{
-    width: 98%;
+    width: 102.01%;
     text-align: center;
     background-color: #3591CC;
     padding: 1%;
