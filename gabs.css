@@ -28,7 +28,9 @@ body{
 
 .pesquisa{
     width:100%;
-    padding: 6%;
+    padding: 3%;
+    padding-right: 3%;
+
 }
 
 #texto{
@@ -92,10 +94,9 @@ header{
     width: 96%;
 }
 #uti{
-    width: 10%;
-    margin-right: 0%;
-    margin-top: 2%;
-    min-width:100px;
+    width: 15%;
+    margin-top: 1%;
+    min-width:90px;
 }
 #nave{
     width: 100%;
@@ -111,6 +112,7 @@ header{
     margin-right: 5%;
     margin-top:2% ;
     min-width: 40px;
+    font-size: 80%;
 }
 
 #loginho{
@@ -159,7 +161,7 @@ a{
         text-decoration: none;
         padding: 5%;
         color: black;
-        margin: 0%;
+        margin-right: 2%;
     }
     .afil:hover{
         color: #3591CC;
