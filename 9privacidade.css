@@ -1,6 +1,7 @@
 #politica{
+    margin-right: auto;
+    margin-left: auto;
     margin: 5%;
-    margin-left: 2%;
 }
 .pdp{
     text-align: center;
@@ -48,7 +49,6 @@ footer{
     padding: 2%;
     width: 100%;
     color: #ffffff;
-    margin: auto;
 }
 .copy{
     text-align: center;
@@ -69,4 +69,8 @@ header{
 .logo{
     background-color: #3591CC;
     width:5%;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
 }
