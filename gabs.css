@@ -119,7 +119,7 @@ header{
     padding-left: 30%;
     padding-top: 1%;
 }
-.insta , .face {
+.insta , .face, .email1{
     filter: brightness(100);
 }
 .tdal{

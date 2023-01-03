@@ -5,6 +5,9 @@ footer{
     width: 100%;
     color: #ffffff;
 }
+.copy{
+    text-align: center;
+}
 
 .logo{
     background-color: #3591CC;
@@ -131,7 +134,7 @@ header{
     padding-left: 30%;
     padding-top: 1%;
 }
-.insta , .face {
+.insta , .face, .email1{
     filter: brightness(100);
 }
 .tdal{

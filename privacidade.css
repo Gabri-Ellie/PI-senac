@@ -1,0 +1,72 @@
+#politica{
+    margin: 5%;
+    margin-left: 2%;
+}
+.pdp{
+    text-align: center;
+    background-color: #c6e3f5;
+}
+.logo{
+    background-color: #3591CC;
+    width:5%;
+}
+#uti{
+    width: min-content;
+    margin-top:2% ;
+    max-width: 130px;
+    min-width: 150px;
+    margin-right: 0%;
+}
+#loginho{
+    padding-left: 30%;
+    padding-top: 1%;
+}
+.pesquisa{
+    width:50%;
+    padding: 2%;
+}
+#log{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: min-content;
+    margin-right: 5%;
+    margin-top:2% ;
+}
+#imglog{
+    width:100% ;
+}
+#nave{
+    width: 100%;
+    height: 1%;
+    background-color: #207eb8;
+    text-align: center;
+}
+footer{
+    background-color: #3591CC;
+    text-align: end;
+    padding: 2%;
+    width: 100%;
+    color: #ffffff;
+    margin: auto;
+}
+.copy{
+    text-align: center;
+}
+header{
+    background-color: #3591CC;
+    display: flex ;
+    flex-direction:row;
+    padding: 2%;
+    justify-content: space-between;
+    height:fit-content;
+    max-height: 150px;
+    margin: auto;
+}
+.insta , .face, .email1{
+    filter: brightness(100);
+}
+.logo{
+    background-color: #3591CC;
+    width:5%;
+}
