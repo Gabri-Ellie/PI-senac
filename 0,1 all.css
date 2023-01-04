@@ -193,3 +193,6 @@ text-align: center;
 background-color: #3591CC;
 padding: 1%;
 }
+#redesfooter{
+    filter: brightness(100);
+}
