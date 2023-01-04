@@ -1,6 +1,6 @@
 .eletronicos{
-    margin: auto;
-    color: #c6e3f5;
+    margin: unset;
+    table-layout: auto;
 }
 .eletro1{
     padding: 50px;
