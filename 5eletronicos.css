@@ -1,22 +1,7 @@
 .eletronicos{
-    width: 50%;
-    font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-    padding: 5%;
-    margin: auto 0%;
-    
-}
-.trele{
-    width: fit-content;
-    display: flex;
-    text-align: center;
-    padding:2% ;
-}
-.eletro1{
-    width: 20%;
-    text-align: center;
-    padding: 1%;
-}
-.tabela{
     margin: auto;
     color: #c6e3f5;
-  }
+}
+.eletro1{
+    padding: 50px;
+}
