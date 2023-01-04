@@ -164,14 +164,12 @@ a{
 #loginho{
     width: 50%;
 }
-<<<<<<< HEAD
 #procurados{
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     
 }
-=======
 .filtrosa{
 display: flex;
 flex-direction: column;
@@ -195,4 +193,3 @@ text-align: center;
 background-color: #3591CC;
 padding: 1%;
 }
->>>>>>> ce980de (gabspi)
