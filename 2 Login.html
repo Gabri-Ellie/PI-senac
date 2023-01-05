@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilipro Login</title>
     <link rel="stylesheet" href="0,1 all.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
 </head>
 <body>
     <header id="logo">
@@ -35,35 +37,128 @@
             </datalist>
             </form> 
             <aside id="log">
-            <a href="2 Login.html"><img src="loginn.png" width="30%" id="imglog"></a>
+            <a href="2 Login.html"><img src="img/loginn.png" width="30%" id="imglog"></a>
             <h3> LOGIN </h3>
             </aside>
 
     </header>
     <nav id="nave">
-        <a href="4 Casa.html"><img src="eletrodomesticos.png" width="10%"></a>
-        <a href="5 Eletrônicos.html"><img src="eletronicos.png" width="10%"></a>
-        <a href="7 Moda.html"><img src="vestuario.png" width="9%"></a>
-        <a href="9 Pets.html"><img src="pets.png" width="10%"></a>
+        <a href="4 Casa.html"><img src="img/eletrodomesticos.png" width="10%"></a>
+        <a href="5 Eletrônicos.html"><img src="img/eletronicos.png" width="10%"></a>
+        <a href="7 Moda.html"><img src="img/vestuario.png" width="9%"></a>
+        <a href="9 Pets.html"><img src="img/pets.png" width="10%"></a>
 
-        <a href="3 Cupons.html"><img src="cumponz.png" width="7%"></a>    
-        <a href="6 Alimentos.html"><img src="alimento.png" width="10%"></a>    
+        <a href="3 Cupons.html"><img src="img/cumponz.png" width="7%"></a>    
+        <a href="6 Alimentos.html"><img src="img/alimento.png" width="10%"></a>    
     </nav>
+    <div id="container">
     <fieldset>
         <legend>Dados de Login</legend>
+        main
 
-        <label>E-mail:</label><input type="email"><br><br>
+    <div id="login">
 
-        <label>Imagem de perfil:</label><input type="file"><br><br>
+        <form class="card">
 
-        <label>Login de usuário:</label><input type="text"><br><br>
+            <div class="card-header">
 
-        <label>Senha: </label><input type="password"><br><br>
+                <h2>Login</h2>
 
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-content-area">
+
+                    <label for="usuario">Usuário</label>
+
+                    <input type="text" id="usuario" autocomplete="off">
+
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="password">Senha</label>
+
+                    <input type="password" id="password" minlength="8" required autocomplete="off" >
+
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+
+                <input type="submit" value="Login" class="submit">
+
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="login2">
+
+        <form class="card" onsubmit="SenhaOK">
+
+            <div class="card-header">
+
+                <h2>Cadastro</h2>  
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-content-area">
+
+                    <label for="usuario">Usuário</label>
+
+                    <input type="text" id="usuario" autocomplete="off" required>
+
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="CPF">CPF</label>
+
+                    <input type="tel" id="CPF" autocomplete="off" required maxlength="11">
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="password">Senha</label>
+
+                    <input type="password" id="senha" minlength="8" required autocomplete="off" onchange="confereSenha();">
+
+                </div>
+
+                <div class="card-content-area">
+
+                    <label for="password">Confirme sua senha</label>
+
+                    <input type="password" id="confirma" minlength="8" required autocomplete="off" onchange="confereSenha();">
+
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+
+                <input type="submit" value="Cadastrar" class="submit">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div> 
         <label>Confirme a senha:</label><input type="password"><br><br>
     </fieldset>
     <input type="submit">
     </form>
+    main
     <footer>
    
         <div id="redesfooter">

@@ -1,0 +1,87 @@
+#container{
+    height: 50%;
+    width: 100%;
+
+}
+#login {
+    display: flex;
+    float: left;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 5%;
+    padding-right: 18%;
+    padding-left: 7%;
+
+}
+#login2{
+    padding: 5%;
+    display: flex;
+    
+}
+
+.card {
+    background-color: #3591CC;
+    padding: 70px;
+    border-radius: 20px;
+    width: 280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 100px;
+    color: white;
+
+}
+
+
+.card-content label {
+    color: white;
+    font-size: 15px;
+
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+
+}
+.CPF{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+
+.card-content-area input {
+    padding: 5px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 60px;
+    background-color: firebrick;
+    border:none;
+    color:#e1e1e1;
+    margin: 10px;
+
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+
+}
