@@ -5,6 +5,9 @@ footer{
     width: 100%;
     color: #ffffff;
 }
+.copy{
+    text-align: center;
+}
 
 .logo{
     background-color: #3591CC;
@@ -131,7 +134,7 @@ header{
     padding-left: 30%;
     padding-top: 1%;
 }
-.insta , .face {
+.insta , .face, .email1{
     filter: brightness(100);
 }
 .tdal{
@@ -145,8 +148,9 @@ a{
 .aldiv{
     width:90%;
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    display: flex;
+    flex-direction: row;
+
 }
 .tral{
     width: 100%;
@@ -165,4 +169,30 @@ a{
     padding-top: 1%;
     padding-bottom: 1%;
     
+}
+.filtrosa{
+display: flex;
+flex-direction: column;
+width:30% ;
+text-align: justify;
+font-size: larger;
+background-color: rgb(231, 231, 231);
+}
+.afil{
+    text-decoration: none;
+    padding: 5%;
+    color: black;
+}
+.afil:hover{
+    color: #3591CC;
+    background-color: rgb(255, 255, 255);
+}
+.proddesal{
+width: 98%;
+text-align: center;
+background-color: #3591CC;
+padding: 1%;
+}
+#redesfooter{
+    filter: brightness(100);
 }
