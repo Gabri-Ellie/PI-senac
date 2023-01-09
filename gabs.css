@@ -152,20 +152,30 @@ a{
     display: flex;
     flex-direction: column;
     width:20% ;
+    height: 650px;
     text-align: justify;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     background-color: rgb(231, 231, 231);
     margin: 0%;
+    overflow-y: scroll;
     }
     .afil{
         text-decoration: none;
         padding: 5%;
         color: black;
         margin-right: 2%;
+        width: 100%;
+    }
+    .lifil{
+        padding: 5%;
+        width: 90%;
     }
     .afil:hover{
         color: #3591CC;
         background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding-right: 80%;
+        margin: 0%;
     }
     .proddesal{
     width: 98%;
@@ -176,9 +186,21 @@ a{
     .altab{
         width: 80%;
         font-size: clamp(0.5em, 0.5em + 1vw, 1em);
-        padding: 5%;
+        padding: 3%;
     }
 .aa1{
     color: white;
     text-align: center;
+}
+#oele{
+    list-style: none;
+    width: 90%;
+    margin: 0%;
+    padding: 0%;
+}
+#search{
+    width: 101%;
+}
+.hide{
+    display: none;
 }
