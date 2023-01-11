@@ -71,17 +71,18 @@ body{
 }
 
 .teacup{
-    padding: 3%; 
     min-width: 50px;
+    padding: 3%;
 }
 #cupg{
     text-align: center;
     align-self: center;
-    width: fit-content;
+    width: 98%;
     display: flex;
 }
 .cuponsin{
     width: 100%;
+    text-align: center;
 }
 header{
     background-color: #3591CC;
@@ -197,4 +198,7 @@ a{
     width: 90%;
     margin: 0%;
     padding: 0%;
+}
+.casatd{
+    width: fit-content;
 }
