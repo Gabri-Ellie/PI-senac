@@ -127,6 +127,7 @@ header{
     width: 20%;
     text-align: center;
     padding: 1%;
+    text-orientation: sideways;
 }
 a{
     text-decoration: none;
@@ -153,7 +154,6 @@ a{
     display: flex;
     flex-direction: column;
     width:20% ;
-    height: 650px;
     text-align: justify;
     font-size: clamp(0.5em, 0.5em + 1vw, 1em);
     background-color: rgb(231, 231, 231);
